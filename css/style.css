@@ -1,0 +1,129 @@
+/* Common classes */
+.container{
+    max-width:1440px;
+    margin:0 auto;
+    padding:0 15px;
+    width:100%;
+}
+.hero-section {
+    position: relative;
+    background: url('../images/banner_image.jpg');
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: cover;
+    height:700px;
+    width:1690px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-left:0px;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1690px;
+    height: 700px;
+    background: #1981DB;
+    opacity: 70%;
+}
+.content-box {
+    position: relative;
+    background:#D8E7EF;
+    padding: 30px;
+    border-radius: 20px;
+    opacity: 60%;
+    width:688px;
+    height:462px;
+    top:-3px;
+    left:-241px;
+}
+.head_2{
+    font-size:36px;
+    line-height:64px;
+    letter-spacing: 0%;
+    font-weight:400px;
+}
+.head_3{
+    font-size:55px !important;;
+    font-weight: 700px;
+    line-height:64px;
+    letter-spacing: 0%;
+    font-family: Open Sans;
+}
+.para_1{
+    font-size:16px;
+    line-height:26px;
+    letter-spacing: 0%;
+    font-weight:400px;
+    font-family: Open Sans;
+}
+.img-1{
+    margin-left: -412px;
+    margin-top: -481px;
+}
+/* Media Queries */
+@media (max-width: 768px) {
+    .hero-section {
+        min-height: 500px;
+        padding: 50px 20px;
+    }
+    .content-box {
+        padding: 20px;
+        text-align: center;
+    }
+    .head_2 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .head_3 {
+        font-size: 36px;
+        line-height: 44px;
+    }
+}
+@media (max-width: 575px) {
+    .hero-section {
+        min-height: 450px;
+        padding: 40px 15px;
+    }
+    .content-box {
+        padding: 15px;
+        width: 95%;
+    }
+    .head_2 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .head_3 {
+        font-size: 30px;
+        line-height: 38px;
+    }
+    .para_1 {
+        font-size: 14px;
+        line-height: 22px;
+    }
+}
+@media (max-width: 356px) {
+    .hero-section {
+        min-height: 400px;
+        padding: 30px 10px;
+    }
+    .content-box {
+        padding: 10px;
+        width: 98%;
+    }
+    .head_2 {
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .head_3 {
+        font-size: 26px;
+        line-height: 34px;
+    }
+    .para_1 {
+        font-size: 12px;
+        line-height: 20px;
+    }
+}
+
