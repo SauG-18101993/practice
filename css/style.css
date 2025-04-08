@@ -5,6 +5,9 @@
     padding:0 15px;
     width:100%;
 }
+.body, .html{
+    overflow-x: hidden;
+}
 .hero-section {
     position: relative;
     background: url('../images/banner_image.jpg');
@@ -62,16 +65,17 @@
 .img-1{
     margin-left: -412px;
     margin-top: -481px;
+    opacity: 70%;
 }
 /* Media Queries */
 @media (max-width: 768px) {
     .hero-section {
         min-height: 500px;
-        padding: 50px 20px;
     }
     .content-box {
-        padding: 20px;
-        text-align: center;
+        margin-left:136px;
+        margin-top: 74px;
+        padding:30px;
     }
     .head_2 {
         font-size: 28px;
@@ -81,15 +85,18 @@
         font-size: 36px;
         line-height: 44px;
     }
+    .img-1{
+        margin-left:-310px;
+    }
 }
 @media (max-width: 575px) {
     .hero-section {
         min-height: 450px;
-        padding: 40px 15px;
     }
     .content-box {
-        padding: 15px;
-        width: 95%;
+        width: 46%;
+        margin-left:396px;
+        margin-top:107px;
     }
     .head_2 {
         font-size: 24px;
@@ -103,15 +110,20 @@
         font-size: 14px;
         line-height: 22px;
     }
+    .img-1{
+        margin-left: -1507px;
+        margin-top:-533px;
+    }
 }
 @media (max-width: 356px) {
     .hero-section {
         min-height: 400px;
-        padding: 30px 10px;
     }
     .content-box {
-        padding: 10px;
-        width: 98%;
+        padding:22px;
+        width:45%;
+        margin-left:392px;
+        min-height: 352px;
     }
     .head_2 {
         font-size: 20px;
@@ -124,6 +136,11 @@
     .para_1 {
         font-size: 12px;
         line-height: 20px;
+    }
+    .img-1{
+        margin-left: -1443px;
+        margin-top: -441px;
+        opacity: 70%;
     }
 }
 
